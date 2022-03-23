@@ -40,8 +40,13 @@
             
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-            <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+            <a href="profile.html" ><i class="fa fa-user-circle mobile-list" aria-hidden="true"></i>
+            </a>
+           <a href="shopping-cart.html"><i class="fa fa-shopping-cart mobile-list" aria-hidden="true"></i>
+           <a href="notifications.html"><i class="fa fa-bell mobile-list" aria-hidden="true"></i>
+            </a>
+
+           </a>
             
         </div>
         <div id="mobile-menu-wrap"></div>
@@ -50,17 +55,17 @@
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header">
+    <header class="header fixed-top">
         
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/ustphublogo.png" class="logo" alt=""></a>
+                        <a href="./index.html"><img src="img/ustphublogo.png" class="logo"alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <nav class="header__menu mobile-menu">
+                    <nav class="header__menu mobile-menu ">
                         <ul>
                             <li class="active"><a href="./index.html">Home</a></li>
                             <li><a href="./shop.html">About</a></li>
@@ -71,15 +76,37 @@
                     </nav>
                 </div>
                 <div class="col-lg-3 col-md-3">
-                    <div class="header__nav__option ">
-                        <a href="./signin.html" class="signin">Sign In</a>
-                        <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+                    <div class="header__nav__option header__menu ">
+                       <ul >
+                        
+
+                            <li> <a href="profile.html" ><i class="fa fa-user-circle mobile-list" aria-hidden="true"></i>
+                            </a></li>
+                            
+                            <li><a href="#"><i class="fa fa-shopping-cart mobile-list" aria-hidden="true"></i>
+                            </a></li> 
+                           <li><a href="#"><i class="fa fa-bell mobile-list" aria-hidden="true"></i>
+                        </a>
+                            <ul class="dropdown">
+                                <li><a href="./about.html">About Us</a></li>
+                                <li><a href="./shop-details.html">Shop Details</a></li>
+                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
+                                <li><a href="./checkout.html">Check Out</a></li>
+                                <li><a href="./blog-details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                       </ul>
+                        
                     </div>
                 </div>
             </div>
             <div class="canvas__open"><i class="fa fa-bars"></i></div>
         </div>
     </header>
+
+
+  
+  
     <!-- Header Section End -->
 
      <!-- Breadcrumb Section Begin -->
@@ -165,11 +192,15 @@
             <div class="col-lg-9">
                 <div class="shop__product__option">
                     <div class="row">
-                    
+                      
                         <div class="col-lg col-md col-sm">
-                            <div class="sell-button">
+                           <div class="sell-button">
                                <button class="btn btn-sell">Add Item for Selling</button>
                             </div>
+                            
+                           
+                        
+                   
                         </div>
                     </div>
                 </div>
